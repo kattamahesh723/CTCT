@@ -1,3 +1,8 @@
+/*
+	Q.  There are three types of edits that can be performed on strings: insert a character, remove a chracter, 
+		or replace a chracter. Given two strings, write a method to check if they are one edit away.
+*/
+
 #include<iostream>
 #include<string>
 

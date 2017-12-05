@@ -1,3 +1,8 @@
+/*
+	Q.  Write a method to rotate a square matrix (N x N) by 90 degrees. Can you do this is in place.
+*/
+
+
 #include<iostream>
 #include <ctime>
 

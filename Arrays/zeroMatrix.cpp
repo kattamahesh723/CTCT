@@ -1,3 +1,7 @@
+/*
+	Q. Write an algorithm such that if an element in an M x N matrix is 0, its row and column are set to 0.
+*/
+
 #include<iostream>
 
 using namespace std;

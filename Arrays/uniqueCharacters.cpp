@@ -1,3 +1,7 @@
+/*
+	Implement an algorithm to determine if a string has all unique characters. No additional data structure should be used.	
+*/
+
 #include<iostream>
 #include<string>
 
@@ -6,6 +10,7 @@ using namespace std;
 int main()
 {
 	string s;
+	cout<<"Enter string!"<<endl;
 	cin>>s;
 	bool char_set[256] = {false};
 	bool result = true;
@@ -19,5 +24,8 @@ int main()
 		char_set[val] = true;
 	}
 
-	cout<<"Is given string has unique characters? "<<result<<endl;
+	if(result)
+		cout<<"Is given string has unique characters? YES"<<endl;
+	else
+		cout<<"Is given string has unique characters? NO"<<endl;
 }

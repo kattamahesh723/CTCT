@@ -1,3 +1,8 @@
+/*
+	Q.  Given a string, write a method to check if it is a permutation of a palindrome. 
+		The palindrome doesn't need to limited to dictionary words.
+*/
+
 #include<iostream>
 #include<string>
 

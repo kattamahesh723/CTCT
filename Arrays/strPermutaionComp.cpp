@@ -1,3 +1,7 @@
+/*
+	Q. Given two strings, write a method to determine if one string is permutation of aother.
+*/
+
 #include<iostream>
 #include<string>
 

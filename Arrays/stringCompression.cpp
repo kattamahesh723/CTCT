@@ -1,3 +1,10 @@
+/*
+	Q. 	Implement a method to perform basic string compression using counts of repeated chracters. 
+		For example, the string "aabcccccaaa" would become "a2b1c5a3". If the compressed string would not become 
+		smaller than the original string, your method should return the original string. 
+		Assumption: String has only upper or lower case letters.
+*/
+
 #include<iostream>
 #include<string>
 
