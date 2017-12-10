@@ -25,7 +25,11 @@ int main()
 	cout<<"Enter string s2:"<<endl;
 	cin>>s2;
 
-	string s = isStringRotation(s1,s2)?"YES":"NO";
+	string s;
+	if(s1.length() ! s2.length())
+		s = "NO";
+	else
+		s = isStringRotation(s1,s2)?"YES":"NO";
 
 	cout<<"Is s2 string rotation of s1? "<<s<<endl;
 }
