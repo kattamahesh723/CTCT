@@ -17,4 +17,6 @@ int main()
 	cout<<"Post order traversal"<<endl;
 	postOrder(root);
 	cout<<endl;
+
+	cout<<"Height of the tree is: "<<returnTreeHeight(root)<<endl;
 }

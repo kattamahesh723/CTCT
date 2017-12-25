@@ -33,6 +33,13 @@ node* constructTree(int *array, int start, int end){
 	return root;
 }
 
+int returnTreeHeight(node *root){
+	if(!root)
+		return 0;
+	
+	return 1 + max(returnTreeHeight(root->left), returnTreeHeight(root->right));
+}
+
 void inOrder(node *root){
 	if(root){
 		inOrder(root->left);

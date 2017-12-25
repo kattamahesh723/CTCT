@@ -12,6 +12,7 @@ struct node{
 
 node* createArrayAndReturnTree();
 node* constructTree(int *array, int start, int end);
+int returnTreeHeight(node *root);
 void inOrder(node *root);
 void preOrder(node *root);
 void postOrder(node *root);
