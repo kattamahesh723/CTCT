@@ -10,6 +10,7 @@ struct node{
 	node *left, *right;
 };
 
+node* constructTree(int *array, int start, int end);
 void inOrder(node *root);
 void preOrder(node *root);
 void postOrder(node *root);
